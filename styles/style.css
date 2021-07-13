@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .container{
@@ -12,10 +14,39 @@ body{
     /* background-color: #2D25A0; */
 }
 
+
+/* Menu part optional */
+.menu-parts{
+    background-color: #2D25A0;
+}
+.menu-part .menu{
+    display: flex;
+}
+.menu{
+    margin: 0;
+    /* margin-bottom: 0; */
+    margin-left: 40px;
+}
+
+.menu li{
+    /* display: flex; */
+    list-style: none;
+    margin-right: 25px;
+    color: white;
+    margin-top: 40px;
+}
+.menu button{
+    margin-left: 615px;
+    margin-top: 40px;
+
+}
+
+
 .home-football{
     display: flex;
     background-color: #2D25A0;
     align-items: center;
+    /* margin-top: 0; */
     /* justify-content: space-between; */
     /* margin: 30px 30px; */
 }
@@ -49,5 +80,5 @@ button .link-btn{
 }
 
 .home-photo img{
-    width: 75%;
+    width: 70%;
 }
