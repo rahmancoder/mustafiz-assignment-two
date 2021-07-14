@@ -150,7 +150,19 @@ article .footballer p{
 
 
 
-/* footer with social ICon and copywirte */
-footer .all-credits{
-    align-items: center;
+/* footer with social ICon and copywirte styles here */
+footer{
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+}
+footer span{
+    /* align-content: center; */
+    text-align: center;
+}
+.foot-photo img{
+    width: 30%;
+    /* align-items: center; */
+    justify-content: center;
 }
