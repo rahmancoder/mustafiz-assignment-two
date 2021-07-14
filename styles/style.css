@@ -352,9 +352,17 @@ color:whitesmoke;
     margin-bottom: -80px;
 }
  .footballers{
-     grid-template-columns: repeat(1,1fr);
+     grid-template-columns: repeat(1,550px);
      margin-left: 0;
  }
+ article h2{
+     margin-top: 10px;
+     margin-bottom: 0;
+ }
+ 
+ article .footballer img, article .footballer h2, article .footballer p {
+    margin-left: 25px;
+}
  .item-shadow{
      width: 65%;
      /* margin: 0; */
@@ -367,7 +375,7 @@ color:whitesmoke;
      margin-right: 0;
  }
 .footballer img{
-width: 120%;    
+    width: 120%; 
 }
 
 
