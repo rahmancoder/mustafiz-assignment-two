@@ -1,6 +1,12 @@
+ /*---------- 
+ font awesome url here
+ ----------------- */
+ 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
+ /*------------- 
+ common part CSS
+ ------------------- */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -22,7 +28,9 @@ main{
 }
 
 
-/* Menu part optional */
+/*------------- 
+Menu part optional
+---------------- */
 .menu-parts{
     background-color: #2D25A0;
 }
@@ -62,7 +70,9 @@ main{
 }
 
 
- /* first section CSS started */
+ /*----------------------
+  first section CSS started 
+  ----------------------- */
 
 .home-football{
     display: flex;
@@ -129,7 +139,10 @@ button .link-btn{
 }
 
 
-/* football photo players Style started here */
+/*-----------------------
+ football photo players Style started here
+ ------------------------- */
+
 article .footballer img,article .footballer h2,
 article .footballer p{
     /* align-items: center; */
@@ -179,9 +192,9 @@ article .footballer p{
 }
 
 
-
-
- /* optional Highlights section styles here */
+ /*-------------------
+  optional Highlights section styles here
+  -------------------- */
 .top-highlights{
     margin-top: 100px;
     margin-bottom: 150px;
@@ -220,10 +233,10 @@ article .footballer p{
 
 
 
+/*-------------------
+ footer with social ICon and copywirte styles here
+ --------------------- */
 
-
-
-/* footer with social ICon and copywirte styles here */
 footer{
     /* align-items: center; */
     /* justify-content: center; */
@@ -266,7 +279,12 @@ color:whitesmoke;
 .fa-twitter{
     color:whitesmoke;
 }
- /* Media Query for Mobile device Styels here */
+
+ /*--------------------------------- 
+ ----------------------------
+ Media Query for Mobile device Styels here
+ -----------------------------
+ ------------------------------------ */
 
  @media only screen and (max-width:688px) {
  
@@ -305,7 +323,9 @@ color:whitesmoke;
  }
 
 
- /* for photo section media query */
+ /*-------------------- 
+ for photo section Media Query
+ ------------------------- */
 .top-footballers{
     margin-left: 0;
     margin-bottom: -80px;
@@ -330,7 +350,10 @@ width: 120%;
 }
 
 
- /* optional section media query */
+ /* --------------------
+ optional section media query 
+ -------------------------*/
+
  .top-highlights{
      width: fit-content;
      margin-left: 0;
@@ -354,7 +377,10 @@ width: 120%;
 
 
 
- /* bonus section media query  here*/
+ /* ------------------
+ bonus section Media Query  here
+ ----------------------*/
+
  .top-players{
      margin-bottom: 0;
  }
@@ -375,7 +401,9 @@ width: 120%;
 }
 
 
-  /* footer section media query styles */
+  /* ------------------ 
+  footer section Media Query styles
+  ---------------------------- */
 
   .all-credits{
       /* width: 70%; */
