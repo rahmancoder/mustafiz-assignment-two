@@ -63,6 +63,7 @@ main{
     width: 50%;
     padding-left: 10px;
 } */
+
 .home-text{
     color: #FFFFFF;
     font-size: 50px;
@@ -146,6 +147,28 @@ article .footballer p{
     /* justify-content: center; */
     
 }
+ /* optional Highlights section styles here */
+.top-highlights{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 130px;
+}
+
+.top-highlights img{
+    width: 70%;
+    margin-left: 55px;
+}
+.highlights{
+    display: flex;
+    align-items: center;
+}
+.highlights h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
 
 
 
