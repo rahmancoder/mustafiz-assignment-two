@@ -47,7 +47,14 @@ main{
     margin-top: 40px;
 
 }
+.fa-sign-in-alt{
+    color: white;
+    margin-right: 6px;
 
+}
+
+
+ /* first section CSS started */
 
 .home-football{
     display: flex;
@@ -88,12 +95,16 @@ button{
 } */
 button .link-btn{
     text-decoration: none;
-    font-size: 16px;
-    
-    
+    font-size: 16px;  
 }
 .link-btn{
     /* padding: 50px 30px; */
+    color: white;
+}
+.fa-long-arrow-alt-right{
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 3px;
     color: white;
 }
 
@@ -189,8 +200,27 @@ footer span{
     /* align-items: center; */
     justify-content: center;
 }
+.connect{
+    font-size: 20px;
+    margin-right: 12px;
+    background-color: rgb(196, 187, 187);
+    border-radius: 15px;
+    padding: 10px 10px;
 
-
+}
+.fa-facebook-f{
+color:whitesmoke;
+}
+.fa-instagram{
+    color:whitesmoke;
+    
+}
+.fa-youtube{
+    color:whitesmoke;
+}
+.fa-twitter{
+    color:whitesmoke;
+}
  /* Media Query for Mobile device Styels here */
 
  @media only screen and (max-width:688px) {
@@ -281,13 +311,13 @@ width: 120%;
   .all-credits{
       width: 70%;
   }
-  .all-credits .foot-photo img{
+  /* .all-credits .foot-photo img{
       width: 65%;
   }
   .all-credits .social-link img{
       width: 10%;
 
-  }
+  } */
 .all-credits h2{
     font-size: 12px;
 }
