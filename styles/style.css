@@ -42,10 +42,18 @@ main{
     color: white;
     margin-top: 40px;
 }
+.menu li:hover{
+    color: darkorchid;
+}
 .menu button{
     margin-left: 615px;
     margin-top: 40px;
 
+}
+.menu button:hover, .home-text button:hover,.highlight-content button:hover{
+    background-color: blueviolet;
+    transform:scaleX(1.5);
+    transition: transform 1.5s ease-in-out;
 }
 .fa-sign-in-alt{
     color: white;
@@ -82,6 +90,9 @@ main{
  .home-text h1{
     margin-bottom: 0;
 }
+.home-text h1:hover{
+    color:darkorange
+}
 button{
     background-color: crimson;
     padding: 12px 30px;
@@ -111,6 +122,10 @@ button .link-btn{
 .home-photo img{
     width: 70%;
     margin-left: 120px;
+}
+.home-photo img:hover{
+    transform: scaleY(1.2);
+    transition: transform 1.5s ease-out;
 }
 
 
@@ -158,6 +173,14 @@ article .footballer p{
     /* justify-content: center; */
     
 }
+.footballer img:hover{
+    transform:scaleY(1.1);
+    transition: transform 1s ease-in-out;
+}
+
+
+
+
  /* optional Highlights section styles here */
 .top-highlights{
     margin-top: 100px;
@@ -216,6 +239,7 @@ footer span{
     /* align-items: center; */
     justify-content: center;
 }
+
 .connect{
     font-size: 20px;
     margin-right: 12px;
@@ -224,6 +248,11 @@ footer span{
     padding: 10px 10px;
 
 }
+.social-link .connect:hover {
+    background-color: darkorchid;
+}
+
+
 .fa-facebook-f{
 color:whitesmoke;
 }
