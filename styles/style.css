@@ -6,12 +6,19 @@ body{
     margin: 0;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
 .container{
     /* display: grid; */
     /* grid-template-columns: repeat(1,1fr); */
     /* justify-content: space-evenly; */
     /* padding: 40px 40px; */
     /* background-color: #2D25A0; */
+    margin-bottom: 80px;
 }
 
 
@@ -25,7 +32,7 @@ body{
 .menu{
     margin: 0;
     /* margin-bottom: 0; */
-    margin-left: 40px;
+    margin-left: 90px;
 }
 
 .menu li{
@@ -49,7 +56,13 @@ body{
     /* margin-top: 0; */
     /* justify-content: space-between; */
     /* margin: 30px 30px; */
+    padding: 65px;
+
 }
+/* .half-width{
+    width: 50%;
+    padding-left: 10px;
+} */
 .home-text{
     color: #FFFFFF;
     font-size: 50px;
@@ -57,6 +70,9 @@ body{
     /* margin: 100px 100px; */
     padding-left: 60px;
     padding-bottom: 0;
+}
+ .home-text h1{
+    margin-bottom: 0;
 }
 button{
     background-color: crimson;
@@ -72,13 +88,69 @@ button{
 button .link-btn{
     text-decoration: none;
     font-size: 16px;
-    color: white;
+    
     
 }
 .link-btn{
     /* padding: 50px 30px; */
+    color: white;
 }
 
 .home-photo img{
     width: 70%;
+    margin-left: 120px;
+}
+
+
+/* football photo players Style started here */
+article .footballer img,article .footballer h2,
+article .footballer p{
+    /* align-items: center; */
+    margin-left: 18px;
+}
+.top-footballers{
+    /* margin-bottom: 30px; */
+    margin-left: 100px;
+}
+.footballers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    /* padding: 4px 4px; */
+    /* box-shadow: 10px 10px 35px rgb(240, 16, 16); */
+
+}
+
+.item-shadow{
+        /* box-shadow: 10px 10px 35px rgb(238, 235, 235); */
+        width: 75%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 25px 5px;
+        box-shadow: 11px 11px 40px gray;
+
+
+}
+.footballer{
+    height: 450px;
+    /* box-shadow: 10px 10px 35px rgb(240, 16, 16); */
+    /* justify-content: center; */
+}
+.footballer img{
+    width: 90%;
+    /* margin-left: 15px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+
+
+
+
+/* footer with social ICon and copywirte */
+footer .all-credits{
+    align-items: center;
 }
