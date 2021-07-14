@@ -45,14 +45,22 @@ Menu part optional
 
 .menu li{
     /* display: flex; */
+    font-size: 16px;
     list-style: none;
     margin-right: 25px;
     color: white;
     margin-top: 40px;
 }
-.menu li:hover{
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li:hover, .menu li a:hover{
     color: darkorchid;
 }
+/* .menu li a:hover{
+    color: darkorchid;
+} */
 .menu button{
     margin-left: 615px;
     margin-top: 40px;
@@ -60,7 +68,7 @@ Menu part optional
 }
 .menu button:hover, .home-text button:hover,.highlight-content button:hover{
     background-color: blueviolet;
-    transform:scaleX(1.5);
+    transform:scaleX(1.15);
     transition: transform 1.5s ease-in-out;
 }
 .fa-sign-in-alt{
@@ -162,6 +170,13 @@ article .footballer p{
     /* box-shadow: 10px 10px 35px rgb(240, 16, 16); */
 
 }
+article h2{
+font-size: 28px;
+font-weight: 700;
+}
+article p{
+    font-size: 16px;
+}
 
 .item-shadow{
         /* box-shadow: 10px 10px 35px rgb(238, 235, 235); */
@@ -214,6 +229,12 @@ article .footballer p{
     font-weight: 700;
     margin-bottom: 0;
 }
+.highlights p{
+    font-size: 16px;
+}
+
+
+
 /* bonus part CSS here */
 .top-players{
     margin-bottom: 100px;
